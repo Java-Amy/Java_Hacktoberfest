@@ -8,6 +8,8 @@ public class Main {
         Random random = new Random();
         int randomNumber = random.nextInt(numbers.length-1);
         int a = numbers[randomNumber];
+        scan.close();
+
         System.out.println("Your generated random number is:  ");
         System.out.println(a);
 
